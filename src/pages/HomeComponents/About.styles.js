@@ -25,6 +25,9 @@ export const AboutHeader = styled.div`
 >h2{
     font-size: 1.7em;
 }
+@media screen and (max-width:400px){
+    text-align: center;
+}
 `
 
 export const AboutText = styled.div`
@@ -34,6 +37,11 @@ text-align: justify;
 text-justify: distribute;
 text-align-last: left;
 text-indent:3em;
+@media screen and (max-width:400px){
+    text-indent:0;
+    text-align: center;
+    text-align-last: center;
+}
 `
 
 export const TextTop = styled.div`

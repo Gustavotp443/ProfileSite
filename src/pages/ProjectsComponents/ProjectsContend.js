@@ -69,7 +69,7 @@ const ProjectContend = ({ repos }) => {
             </ProjectTopWrapper>
             <ProjectMain>
                 <MainText>
-                    <h1>Repósitorios</h1>
+                    <h1>Repositórios</h1>
                     <h2>Github</h2>
                 </MainText>
                 <Main>
